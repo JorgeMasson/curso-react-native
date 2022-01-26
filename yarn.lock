@@ -5539,6 +5539,7 @@ __metadata:
     "@babel/core": ^7.12.9
     expo: ~44.0.0
     expo-status-bar: ~1.2.0
+    prop-types: ^15.8.1
     react: 17.0.1
     react-dom: 17.0.1
     react-native: 0.64.3
@@ -6141,7 +6142,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prop-types@npm:^15.6.0, prop-types@npm:^15.7.2":
+"prop-types@npm:^15.6.0, prop-types@npm:^15.7.2, prop-types@npm:^15.8.1":
   version: 15.8.1
   resolution: "prop-types@npm:15.8.1"
   dependencies:
