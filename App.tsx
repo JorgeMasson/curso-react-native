@@ -1,15 +1,15 @@
 /* eslint-disable react/prop-types */
 import 'react-native-gesture-handler';
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
-import Saludar from './src/components/Saludar'
+import { StyleSheet } from 'react-native';
+import { NavigationContainer } from '@react-navigation/native';
+import NavigationStack from './src/Navigation/NavigationStack';
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Curso React Native</Text>
-      <Saludar />
-    </View>
+    <NavigationContainer>
+      <NavigationStack />
+    </NavigationContainer>
   );
 }
 
